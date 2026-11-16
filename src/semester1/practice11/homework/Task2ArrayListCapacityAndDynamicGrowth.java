@@ -100,7 +100,6 @@ public class Task2ArrayListCapacityAndDynamicGrowth {
         System.out.println("[ІНІЦІАЛІЗАЦІЯ]: Створено CustomArrayCapacityEmulator<String> | size = "
                 + emulator.size() + " | capacity = " + emulator.getCapacity());
 
-
         System.out.println();
         System.out.println("--- Додавання 35 елементів у список ---");
         for (int i = 1; i <= 35; i++) {
