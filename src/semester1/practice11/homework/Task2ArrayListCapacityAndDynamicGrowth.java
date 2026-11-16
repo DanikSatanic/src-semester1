@@ -100,11 +100,6 @@ public class Task2ArrayListCapacityAndDynamicGrowth {
         System.out.println("[ІНІЦІАЛІЗАЦІЯ]: Створено CustomArrayCapacityEmulator<String> | size = "
                 + emulator.size() + " | capacity = " + emulator.getCapacity());
 
-        // Пастка: якщо написати var raw = new ArrayList<>(); (var разом із порожнім <>),
-        // компілятор виведе тип ArrayList<Object> і в список можна буде покласти і рядок, і число.
-        // Тому тип завжди вказуємо в <> праворуч: new CustomArrayCapacityEmulator<String>()
-        System.out.println("[ПРАВИЛО var + <>]: var raw = new ArrayList<>() дав би ArrayList<Object> (тип втрачено),"
-                + " тому пишемо var emulator = new CustomArrayCapacityEmulator<String>()");
 
         System.out.println();
         System.out.println("--- Додавання 35 елементів у список ---");
